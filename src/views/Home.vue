@@ -4,7 +4,7 @@
         <div class="main">
             <v-sidebar></v-sidebar>
             <div class="content">
-                <transition name="movr" mode="out-in"><router-view></router-view></transition>
+                <transition name="move" mode="out-in"><router-view></router-view></transition>
             </div>
         </div>
     </div>
@@ -40,9 +40,9 @@
 .content{
     flex:12;
     padding: 20px;
-    overflow-y: scroll;
+    overflow-y: hidden;
     border-radius: 2px;
-    margin: 3px;
+    margin: 3px;    
     background: whitesmoke; 
 }
 </style>

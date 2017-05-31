@@ -21,8 +21,8 @@ const login = resolve => {
   })
 }
 const user = resolve => {
-  require.ensure(['./views/system/user.vue'], () => {
-    resolve(require('./views/system/user.vue'))
+  require.ensure(['./views/system/user/user.vue'], () => {
+    resolve(require('./views/system/user/user.vue'))
   })
 }
 const orgnazition = resolve => {

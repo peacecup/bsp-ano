@@ -4,6 +4,7 @@
   "children": [{
     "id": 4,
     "label": "奥巴马",
+    "userName": "cn",
     "children": [{
       "id": 9,
       "label": "圣枪突击"

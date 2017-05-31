@@ -54,6 +54,7 @@
   line-height: 60px;
   color: #fff;
   background-color: #227fd1;
+
 }
 .logo{
   float: left;

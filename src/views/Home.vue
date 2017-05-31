@@ -7,6 +7,7 @@
                 <transition name="move" mode="out-in"><router-view></router-view></transition>
             </div>
         </div>
+        <footer>chenning@primeton</footer>
     </div>
 </template>
 
@@ -44,5 +45,12 @@
     border-radius: 2px;
     margin: 3px;    
     background: whitesmoke; 
+}
+footer{
+  flex-basis: 30px;
+  margin-top: 1px;
+  background-color: #227fd1;
+  color: whitesmoke;
+  text-align: center;
 }
 </style>

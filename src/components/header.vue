@@ -1,7 +1,7 @@
 <template>
     <div class="header">
         <div class="logo"> 
-            <img src="../images/gold.png">业务服务平台
+            <img src="../images/gold.png">组织机构平台
         </div>
         <div class="info">
             <el-dropdown trigger="click" @command="handleCommand">
@@ -59,15 +59,15 @@
   float: left;
   text-align: center;
   width: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+
 }
 .logo img{
-  position: absolute;
-  left:0;
-  top: 15px;
-  width:40px;
-  height:40px;
-  border-radius: 50%;
-  margin-left: 10px;
+  flex-basis: 40px;
+  height: 40px;
+  margin: 10px;
 }
 .info{
   float: right;

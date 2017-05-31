@@ -6,37 +6,32 @@
             "level": 1,
             "menuData": [
                 {
-                    "index": "1-1",
-                    "name": "调拨管理",
+                    "index": "leaseRight",
+                    "name": "租借权限管理",
                     "level": 2,
-                    "menuData": [
-                        {
-                            "index": "A",
-                            "name": "客户委托体外白银调拨计划管理"
-                        },
-                        {
-                            "index": "1-1-2",
-                            "name": "调拨密码重置",
-                            "level": 3,
-                            "menuData": [
-                                {
-                                    "index": "leaseRight",
-                                    "name": "租借权限管理"
-                                }
-                            ]
-                        }
-                    ]
                 }
             ]
         },
         {
             "index": "2",
-            "name": "租借管理",
+            "name": "组织机构",
             "level": 1,
             "menuData": [
                 {
-                    "index": "C",
-                    "name": "审批租借"
+                    "index": "user",
+                    "name": "人员管理"
+                },
+                 {
+                    "index": "orgnazition",
+                    "name": "机构管理"
+                },
+                 {
+                    "index": "role",
+                    "name": "角色管理"
+                },
+                 {
+                    "index": "permission",
+                    "name": "权限管理"
                 }
             ]
         }

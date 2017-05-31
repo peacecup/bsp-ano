@@ -27,7 +27,7 @@
                         </el-form-item> 
                         <div class="block">
                             <span class="wrapper">
-                                <router-link to="/leaseRight-plus">
+                                <router-link to="/user">
                                     <el-button type="primary" icon="plus">新增</el-button>
                                 </router-link>
                                 <router-link to="/leaseRight-edit" :disabled="true">
@@ -35,12 +35,12 @@
                                         修改
                                     </el-button>
                                 </router-link>
-                                <router-link to="/leaseRight-del" :disabled="true">
+                                <router-link to="/user" :disabled="true">
                                     <el-button type="primary" icon="delete" :disabled="true">
                                         删除
                                     </el-button>
                                 </router-link>
-                                <router-link to="/leaseRight-check">
+                                <router-link to="/user">
                                     <el-button type="primary" icon="check">
                                         Excel导出
                                     </el-button>
